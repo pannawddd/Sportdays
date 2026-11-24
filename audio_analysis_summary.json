@@ -1,0 +1,58 @@
+{
+  "source": "media/show_audio.m4a",
+  "duration_seconds": 612.101224,
+  "channels": 2,
+  "codec": "AAC",
+  "sample_rate_hz": 44100,
+  "technical_analysis": {
+    "resampled_mono_hz": 11025,
+    "rms_analysis_performed": true,
+    "spectral_onset_autocorrelation_performed": true,
+    "speech_transcription_performed": false,
+    "music_section_classification_performed": false,
+    "overall_bpm": null
+  },
+  "dance_window": {
+    "start_seconds": 111,
+    "end_seconds": 172,
+    "estimated_beat_bpm": 136.0,
+    "alternate_half_time_bpm": 68.0,
+    "confidence": "provisional; onset periodicity needs perceptual/manual verification",
+    "observed_energy": [
+      {
+        "start": 111,
+        "end": 130,
+        "rms": 0.133
+      },
+      {
+        "start": 130,
+        "end": 150,
+        "rms": 0.255
+      },
+      {
+        "start": 150,
+        "end": 170,
+        "rms": 0.275
+      },
+      {
+        "start": 170,
+        "end": 172,
+        "rms": 0.029
+      }
+    ],
+    "interpretation": "loudness increases after approximately 02:10; sustained high energy until approximately 02:50. Loudness alone cannot identify verse/chorus/drop."
+  },
+  "audio_tail": {
+    "audible_level_below_0_001_rms_after_seconds_approx": 609.3,
+    "source_rough_final_cue_end_seconds": 615,
+    "difference_seconds": 2.899,
+    "note": "playback container lasts 612.101s, near-silent ending from approx 610s; actual final blackout must be chosen by user"
+  },
+  "warnings": [
+    "No verified actor paths/positions",
+    "No verified reference photo measurements",
+    "No actual fixture profiles/photometry or rigging certificates",
+    "Speech timing from user cue list only, not ASR-verified",
+    "Different music sections can have different BPM; do not enforce 136 on full track"
+  ]
+}

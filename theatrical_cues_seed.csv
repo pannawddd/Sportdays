@@ -1,0 +1,16 @@
+﻿scene_id,scene_title_th,start_seconds,end_seconds,start_time,end_time,cue_layer,performer_target,original_palette,latest_palette_proposal,design_notes,review_flag
+SC01,งานเลี้ยงที่อีธากา,9.000,95.000,00:09.00,01:35.00,AMBIENT,Odysseus + Penelope,orange+yellow,yellow,"soft warm wash, fade out",orange not in latest palette: user approval required
+SC01,งานเลี้ยงที่อีธากา,58.000,76.000,00:58.00,01:16.00,FOLLOW,messenger running,white,white,moving white follow; fade out,performer trajectory not measured
+SC01,งานเลี้ยงที่อีธากา,93.000,95.000,01:33.00,01:35.00,SPEECH,messenger speaking,white,white,short speaking spot; fade,speech onset not manually audited
+SC01,งานเลี้ยงที่อีธากา,111.000,172.000,01:51.00,02:52.00,DANCE,dance group,red,red,progressive center->fan->cross->N/S chase,music bar/downbeat grid needs verification
+SC02,จะขึ้นเรือ,175.000,208.000,02:55.00,03:28.00,AMBIENT+FOLLOW,Penelope + Odysseus,orange+yellow+white,yellow+white,dim yellow wash + white focus; fade,orange translated to yellow pending approval
+SC03,สนามรบกรุงทรอย A,211.000,260.000,03:31.00,04:20.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,"red background, white speaker spot",verify spoken timestamps
+SC03,สนามรบกรุงทรอย B,260.000,307.000,04:20.00,05:07.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,"red background, white speaker spot",verify spoken timestamps
+SC03,สนามรบกรุงทรอย C,307.000,329.000,05:07.00,05:29.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,"red background, white speaker spot",verify spoken timestamps
+SC04,ขึ้นเรือกลับ,329.000,360.000,05:29.00,06:00.00,AMBIENT+FOLLOW,Odysseus + Penelope,orange+yellow+white,yellow+white,dim yellow background and white lead,orange translated to yellow pending approval
+SC05,เกาะไซเรน,360.000,410.000,06:00.00,06:50.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,red wash and speaker focus; purple optional only after review,verify spoken timestamps
+SC06,เจอไซคลอปส์,410.000,456.000,06:50.00,07:36.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,red wash and speaker focus,verify spoken timestamps
+SC07,เรือแตก,456.000,496.000,07:36.00,08:16.00,AMBIENT+FOLLOW,soldier speaking,red+white,red+white,red wash and speaker focus,verify spoken timestamps
+SC08,กลับบ้าน,496.000,550.000,08:16.00,09:10.00,AMBIENT+FOLLOW,Odysseus + Penelope,orange+yellow+white,yellow+white,"dim yellow wash, white performers",orange translated to yellow pending approval
+SC09,งานเลี้ยงฉลอง,550.000,600.000,09:10.00,10:00.00,AMBIENT+FOLLOW,Odysseus + Penelope,orange+yellow+white,yellow+white,warm yellow celebratory wash and white lead,orange translated to yellow pending approval
+SC10,ปิดฉาก,600.000,612.101,10:00.00,10:12.10,FOLLOW+FADE,Odysseus + Penelope,white,white,white focus -> blackout at audio end,original rough cue end 615s exceeds audio by 2.899s

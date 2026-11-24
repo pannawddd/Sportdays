@@ -1,0 +1,5 @@
+﻿start,end,fixture_count,intensity_pct_draft,movement,palette,basis,validation
+01:51,02:10,4,25–35,CENTER_HOLD,PURPLE or RED,lower energy first ~19s,manual review against actual music
+02:10,02:30,8–12,50–75,FAN_OPEN then CROSS,RED + YELLOW,RMS markedly increases around 02:10,musical section labels not yet verified
+02:30,02:50,16,75–95,NORTH_SOUTH_PING_PONG / CHASE,RED + WHITE accents,sustained high RMS,verify downbeat and safe strobe settings
+02:50,02:55,0–4,fade to 0,FADE_OUT / TRANSITION,RED -> BLACK,strong energy drop ~02:50,final transition cue to align with scene 2 at 02:55

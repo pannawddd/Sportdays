@@ -1,0 +1,575 @@
+{
+  "schemaVersion": "1.1.0",
+  "name": "Show Venue Reference Matched Rig — 16 Editable Moving Heads",
+  "status": "PREVIS_SITE_COORDINATES_UNVERIFIED",
+  "note_th": "พิกัดและความสูงทั้งหมดเป็นตัวอย่างเริ่มต้นเท่านั้น ต้องเทียบภาพสถานที่และวัดหน้างานก่อนติดตั้งจริง",
+  "units": "meters",
+  "coordinateSystem": {
+    "handedness": "right-handed",
+    "x": "east/right when looking from SOUTH towards NORTH",
+    "y": "height above court floor",
+    "z": "north (+z); south (-z)",
+    "courtCenter": [
+      0,
+      0,
+      0
+    ]
+  },
+  "court": {
+    "lengthX": 28.0,
+    "widthZ": 15.0,
+    "floorY": 0.0
+  },
+  "allowedPrimaryColors": [
+    "red",
+    "white",
+    "purple",
+    "yellow"
+  ],
+  "fixtureTechnology": "CMY_LED_MOVING_HEAD",
+  "expectedFixtureCount": 16,
+  "ceilingMountAllowed": false,
+  "limits": {
+    "configuredMovementEnvelopeDegrees": 180,
+    "requiresActualFixtureProfile": true
+  },
+  "mounts": [
+    {
+      "id": "N_RAIL_L",
+      "type": "rail",
+      "name": "North rail left section",
+      "position": {
+        "x": -7.0,
+        "y": 2.15,
+        "z": 8.2
+      },
+      "rotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "positionVerified": false,
+      "notes": "Visual reference alignment pending; this coordinate is provisional"
+    },
+    {
+      "id": "N_RAIL_R",
+      "type": "rail",
+      "name": "North rail right section",
+      "position": {
+        "x": 7.0,
+        "y": 2.15,
+        "z": 8.2
+      },
+      "rotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "positionVerified": false,
+      "notes": "Visual reference alignment pending; this coordinate is provisional"
+    },
+    {
+      "id": "S_POLE_L",
+      "type": "vertical_pole",
+      "name": "South left freestanding pole",
+      "position": {
+        "x": -11.5,
+        "y": 0,
+        "z": -8.5
+      },
+      "rotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "positionVerified": false,
+      "notes": "Visual reference alignment pending; this coordinate is provisional"
+    },
+    {
+      "id": "S_POLE_R",
+      "type": "vertical_pole",
+      "name": "South right freestanding pole",
+      "position": {
+        "x": 11.5,
+        "y": 0,
+        "z": -8.5
+      },
+      "rotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "positionVerified": false,
+      "notes": "Visual reference alignment pending; this coordinate is provisional"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "N01",
+      "group": "NORTH",
+      "mountId": "N_RAIL_L",
+      "enabled": true,
+      "localPosition": {
+        "x": -4.5,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N02",
+      "group": "NORTH",
+      "mountId": "N_RAIL_L",
+      "enabled": true,
+      "localPosition": {
+        "x": -2.0,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N03",
+      "group": "NORTH",
+      "mountId": "N_RAIL_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N04",
+      "group": "NORTH",
+      "mountId": "N_RAIL_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 3.0,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N05",
+      "group": "NORTH",
+      "mountId": "N_RAIL_R",
+      "enabled": true,
+      "localPosition": {
+        "x": -3.0,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N06",
+      "group": "NORTH",
+      "mountId": "N_RAIL_R",
+      "enabled": true,
+      "localPosition": {
+        "x": -0.5,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N07",
+      "group": "NORTH",
+      "mountId": "N_RAIL_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 2.0,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "N08",
+      "group": "NORTH",
+      "mountId": "N_RAIL_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 4.5,
+        "y": 0,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Default 2.15m height and +8.2m north position; verify actual rail before installation",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S01",
+      "group": "SOUTH",
+      "mountId": "S_POLE_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 0.75,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S02",
+      "group": "SOUTH",
+      "mountId": "S_POLE_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 1.25,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S03",
+      "group": "SOUTH",
+      "mountId": "S_POLE_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 1.75,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S04",
+      "group": "SOUTH",
+      "mountId": "S_POLE_L",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 2.25,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S05",
+      "group": "SOUTH",
+      "mountId": "S_POLE_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 0.75,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S06",
+      "group": "SOUTH",
+      "mountId": "S_POLE_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 1.25,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S07",
+      "group": "SOUTH",
+      "mountId": "S_POLE_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 1.75,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    },
+    {
+      "id": "S08",
+      "group": "SOUTH",
+      "mountId": "S_POLE_R",
+      "enabled": true,
+      "localPosition": {
+        "x": 0,
+        "y": 2.25,
+        "z": 0
+      },
+      "localRotationDeg": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "editable": true,
+      "provisional": true,
+      "notes": "Vertical stack on freestanding south pole; mounting and load safety to verify",
+      "coordinateVerified": false
+    }
+  ],
+  "exclusionZones": [],
+  "ui": {
+    "enableDrag3D": true,
+    "enableNumericXYZ": true,
+    "enableGroupTransform": true,
+    "enableIndividualLocalOffset": true,
+    "enableUndoRedo": true,
+    "enableSaveLoadJSON": true,
+    "enableCollisionWarnings": true,
+    "enableSnapToRail": true
+  },
+  "venueReferences": [
+    {
+      "file": "media/ref_01_NW_elevated.jpeg",
+      "view": "NW Elevated",
+      "userProvided": true
+    },
+    {
+      "file": "media/ref_02_North_elevation.jpeg",
+      "view": "North Elevation",
+      "userProvided": true
+    },
+    {
+      "file": "media/ref_03_High_top_plan.jpeg",
+      "view": "High Top Plan",
+      "userProvided": true
+    },
+    {
+      "file": "media/ref_04_NE_elevated.jpeg",
+      "view": "NE Elevated",
+      "userProvided": true
+    }
+  ],
+  "audioReference": {
+    "file": "media/show_audio.m4a",
+    "durationSeconds": 612.101224,
+    "codec": "AAC",
+    "channels": 2,
+    "sampleRateHz": 44100
+  },
+  "orientation": {
+    "north": "Large spectator bleachers / central white screen and two midline stairs visible in venue references",
+    "south": "Opposing smaller side bleachers / central stair landing",
+    "editableNorthSouthOrientation": true,
+    "northSouthNamingIsProjectConventionNotSurveyedCompass": true
+  },
+  "siteLandmarks": [
+    {
+      "id": "NORTH_BLEACHERS",
+      "type": "bleachers",
+      "notes": "Large raised bleachers across long side with white central screen; height, rows, wall offsets all editable",
+      "provisional": true
+    },
+    {
+      "id": "NORTH_CENTRAL_PLATFORM",
+      "type": "raised_platform",
+      "notes": "Central elevated box/platform in front of screen with descending access on both sides; do not obstruct access",
+      "provisional": true
+    },
+    {
+      "id": "NORTH_STAIRS_L",
+      "type": "stairs",
+      "notes": "Access stairs descending from central north platform on one side",
+      "provisional": true
+    },
+    {
+      "id": "NORTH_STAIRS_R",
+      "type": "stairs",
+      "notes": "Access stairs descending from central north platform on other side",
+      "provisional": true
+    },
+    {
+      "id": "SOUTH_BLEACHERS",
+      "type": "bleachers",
+      "notes": "Opposite bleachers with railings and a central aisle/stair landing",
+      "provisional": true
+    },
+    {
+      "id": "SOUTH_CENTRAL_STAIRS",
+      "type": "stairs",
+      "notes": "Central south access path; preserve clear egress",
+      "provisional": true
+    },
+    {
+      "id": "BASKETBALL_HOOP_LEFT",
+      "type": "basketball_hoop",
+      "notes": "Visible in renders, optional removable object in show mode",
+      "visibleByDefault": true,
+      "editable": true
+    },
+    {
+      "id": "BASKETBALL_HOOP_RIGHT",
+      "type": "basketball_hoop",
+      "notes": "Visible in renders, optional removable object in show mode",
+      "visibleByDefault": true,
+      "editable": true
+    },
+    {
+      "id": "CENTER_COURT",
+      "type": "performance_zone",
+      "notes": "Editable central performance anchor, NOT a measured performer mark",
+      "provisional": true
+    }
+  ],
+  "editorCapabilitiesRequired": [
+    "select-fixture",
+    "translate-gizmo",
+    "rotate-gizmo",
+    "local-world-toggle",
+    "multi-select",
+    "move-mount-with-children",
+    "reparent-preserve-world-transform",
+    "snap-grid",
+    "numeric-xyz",
+    "lock-unlock",
+    "undo-redo",
+    "save-load-json",
+    "fixture-cue-revalidation",
+    "ipad-touch"
+  ],
+  "editableStructuralDimensions": {
+    "northRailHeightMeters": 2.15,
+    "northRailZ": 8.2,
+    "southPoleXHalfSpacingMeters": 11.5,
+    "southPoleZ": -8.5,
+    "verifiedMeasurements": false,
+    "notes": "These values come from old draft only and are NOT photo-derived dimensions"
+  },
+  "safety": {
+    "egressZonesMustRemainClear": true,
+    "noCeilingMount": true,
+    "noUnsafeAudienceTargeting": true,
+    "poleLoadEngineeringRequired": true,
+    "fixtureManualRequiredForDMXAndActualPanTilt": true
+  },
+  "audienceView": {
+    "primaryViewFromSouthTowardNorth": true,
+    "userMayChange": true
+  }
+}
